@@ -4,7 +4,7 @@
 This is a project that will test the continuous integration for arista switches and other various linux/docker/nginx interestes.
 
 Using the following topology
-![alt tag](https://github.com/burnyd/eos-vagrant/blob/master/arista-vagrant.jpg)
+![alt tag](https://github.com/burnyd/arista-vagrant/blob/master/arista-vagrant.jpg)
 
 The vagrant file should contain all the information on the build of the vagrant boxes.
 
