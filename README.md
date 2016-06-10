@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # eos-vagrant
 
 This is a project that will test the continuous integration for arista switches and other various linux/docker/nginx interestes.
@@ -16,3 +17,6 @@ I put together a todo segment with all of my tasks I need to accomplish.
 Each leaf / spine will be setup in the typical L3 clos fabric.
 Each device will receive a IP from the management network.
 Three VM's will only reside in the management network one fir Ansible,One for DNS/LDAP/ZTP server and another for management.
+=======
+# arista-vagrant
+>>>>>>> 9e25cd3696d74630c88af50421a038c2cc2bc731
