@@ -1,0 +1,15 @@
+---
+
+leaf1as: 65501
+leaf2as: 65502
+spine: 65500
+leaf1aspine1: 10.0.11.2
+leaf1aspine2: 10.0.12.2
+leaf1bspine1: 10.0.21.2
+leaf1bspine2: 10.0.22.2
+leaf2aspine1: 10.0.211.2
+leaf2aspine2: 10.0.212.2
+leaf2bspine1: 10.0.221.2
+leaf2bspine2: 10.0.222.2
+
+

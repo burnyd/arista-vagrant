@@ -1,0 +1,11 @@
+router bgp {{ leaf1as }}
+neighbor {{ leaf1spine1 }} remote-as {{ spine }}
+neighbor {{ leaf1spine1 }} soft-reconfiguration inbound all
+neighbor {{ leaf1spine1 }} send-community
+neighbor {{ leaf1spine2 }} remote-as {{ spine }}
+neighbor {{ leaf1spine2 }} soft-reconfiguration inbound all
+neighbor {{ leaf1spine2 }} send-community
+neighbor {{ leafa1vl5 }} remote-as {{ leaf1as }}
+neighbor {{ leafa1vl5 }} next-hop-self
+neighbor {{ leafa1vl5 }} update-source loopback 0
+

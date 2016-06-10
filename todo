@@ -1,0 +1,13 @@
+To do file for git
+#Added a bash script to rm /mnt/flash/startup-config then reboot the switch to start the ZTP process.  
+#Added switchserials directory and the name of each switch to add the veos-config during boot time. 
+
+1.) Add the physical topology each box and their physical connections to the switches / management networks.
+2.) Add IP's to everything within networks for management figure out how to ZTP everything to interface ma1
+3.) Need to create a custom box for the Arista image.  How do we automat this in the future or do we just always boot the base?
+4.) Start to figure out the IP schema for each interface.  
+5.) Add DNS box to mgt1
+5.1) Add DNS script to bootstrap to add all IP's
+5.2) Add DNS script to each leaf switch to update DNS for each of its interfaces 
+6.) Add ansible setup to mgt1
+7.) ansible to configure both spines and leaf switches
